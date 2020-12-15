@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <style>
+    h2 {
+      text-align: center;
+    }
+
+    input {
+      width: 100%;
+    }
+  </style>
+  <script src="js/login.js"></script>
+</head>
+<body>
+<div style="
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;">
+  <div>
+    <h2>Имя</h2><input id="name" type="text"/>
+    <p id="wrong name" style="display:none">Неправильное имя</p>
+    <h2>Email</h2><input id="email" type="text"/>
+    <p id="wrong email" style="display:none">Неправильная почта</p>
+    <h2>Телефон</h2><input id="phone" type="text"/>
+    <p id="wrong phone" style="display:none">Неправильный телефон</p>
+    <h2>Пароль</h2><input id="password" type="password"/>
+    <p id="wrong password" style="display:none">Неправильный пароль</p>
+    <h2>Подтверждение пароля</h2><input id="confirm" type="password"/>
+    <p id="wrong confirm" style="display:none;">Пароли не совпадают</p>
+    <button style="margin-top: 30px;width: 50%;text-align: center" onclick="validate(this)"> Send</button>
+  </div>
+</div>
+</body>
+<script src="js/login.js"></script>
+</html>
