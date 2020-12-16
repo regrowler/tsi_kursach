@@ -1,0 +1,64 @@
+.catalog-item {
+  flex-direction: row;
+  display: flex;
+  height: 100px;
+}
+
+.index {
+  margin: 10px;
+  width: 4%;
+  text-align: center;
+  /*line-height: 60px;*/
+  font-weight: bolder;
+}
+
+.model {
+  margin: 10px;
+  width: 10%;
+  text-align: center;
+  /*line-height: 60px;*/
+}
+
+.about {
+  margin: 10px;
+  font-size: larger;
+  width: 66%;
+}
+
+.price {
+  margin: 10px;
+  font-size: larger;
+  width: 10%;
+  text-align: center;
+  /*line-height: 60px;*/
+}
+
+.book {
+  margin: 0 10px 10px 10px;
+  font-size: larger;
+  width: 10%;
+}
+
+.book-button {
+  font-size: larger;
+  margin: 10px;
+  text-align: center;
+  line-height: 60px;
+  border: orange 2px solid;
+}
+
+.book-button-booked-by-user {
+  font-size: larger;
+  background: orange;
+  margin: 10px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.book-button-booked-by-stranger {
+  font-size: larger;
+  background: lightslategray;
+  margin: 10px;
+  text-align: center;
+  line-height: 60px;
+}
